@@ -18,3 +18,7 @@ O imagine face cât o mie de cuvinte așa că vă las pe voi să-i descoperiți 
 ### [Programul portabil - adică e doar executabilul](https://github.com/Ursawarlord/Calculator-de-medii/raw/master/Descarcare/Calculator%20de%20medii%20V1.exe)
 
 ### [Programul cu instalare](https://github.com/Ursawarlord/Calculator-de-medii/raw/master/Descarcare/Calculator%20de%20medii_Install.rar)
+
+# Cod Sursă
+
+[În fișierul ăsta am scos majoritatea codului care face acest program.](https://github.com/Ursawarlord/Calculator-de-medii/blob/master/Form1.cs)
