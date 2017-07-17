@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -463,27 +463,27 @@ namespace Calculator_de_medii_FInal
         {
             double contor_medii_generale_nenule = 0;
             foreach (var medie in lista_medii_materii_generale)
-                if (medie > 0)
-                    contor_medii_generale_nenule++;
-            if (contor_medii_generale_nenule > 0)
+            if (medie > 0)
+                contor_medii_generale_nenule++;
+
+            double suma_medii_generale = 0;
+            double contor_medii_generale = 0;
+            double medie_generala_finala;
+            foreach (double medie in lista_medii_materii_generale)
             {
-                double suma_medii_generale = 0;
-                double contor_medii_generale = 0;
-                foreach (double medie in lista_medii_materii_generale)
+                if (medie > 0)
                 {
-                    if (medie > 0)
-                    {
-                        suma_medii_generale += medie;
-                        contor_medii_generale++;
-                    }
-                }
-                double medie_generala_finala = suma_medii_generale / contor_medii_generale;
-                if (medie_generala_finala > 0.00)
-                {
-                    lista_un_element_medie_generala_anuala[0] = medie_generala_finala;
-                    lista_un_element_label_medie_generala_anuala[0].Text = "MGA: " + medie_generala_finala.ToString("F");
+                    suma_medii_generale += medie;
+                    contor_medii_generale++;
                 }
             }
+            if(suma_medii_generale > 0.00 && contor_medii_generale > 0.00)
+                medie_generala_finala = suma_medii_generale / contor_medii_generale;
+            else 
+                medie_generala_finala = 0.00;
+            lista_un_element_medie_generala_anuala[0] = medie_generala_finala;
+            lista_un_element_label_medie_generala_anuala[0].Text = "MGA: " + medie_generala_finala.ToString("F");
+
         }
         private void Casuta_materie_check(Object sender, EventArgs e, int index_curent)
         {
