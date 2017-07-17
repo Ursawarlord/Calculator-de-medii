@@ -1,6 +1,13 @@
 # Calculator De Medii
-**Versiunea curentă este V1 (17 iulie 2017)**
+**Versiunea curentă este V2 (17 iulie 2017)**
 
+# Changelog
+
+V2 - 17 iulie 2017
+* S-a reparat un bug în care MGA nu este resetată la valoarea 0 dacă o fostă MG calculată era dezactivată.
+
+V1 - 17 iulie 2017: 
+* Prima lansare
 
 # Descriere
 
@@ -18,9 +25,9 @@ O imagine face cât o mie de cuvinte așa că vă las pe voi să-i descoperiți 
 
 Programul necesită .NET Framework 4.5.1, Windows 10 îl are incorporat, dacă nu-l aveți nu veți putea rula programul.
 
-### [Programul portabil - adică e doar executabilul](https://github.com/Ursawarlord/Calculator-de-medii/raw/master/Descarcare/Calculator%20de%20medii%20V1.exe)
+### [Programul portabil - adică e doar executabilul](https://github.com/Ursawarlord/Calculator-de-medii/raw/master/Descarcare/Calculator%20de%20medii%20V2.exe)
 
-### [Programul cu instalare](https://github.com/Ursawarlord/Calculator-de-medii/raw/master/Descarcare/Calculator%20de%20medii_Install.rar)
+### [Programul cu instalare](https://github.com/Ursawarlord/Calculator-de-medii/raw/master/Descarcare/Calculator%20de%20medii_V2_Install.rar)
 
 # Cod Sursă
 
